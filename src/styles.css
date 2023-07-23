@@ -1,0 +1,70 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.input {
+  width: 60%;
+  padding: 1rem;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.button {
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.table {
+  border: 2px solid grey;
+  padding: 8px;
+  margin: 8px 1rem;
+  border-radius: 8px;
+  min-width: 90%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 2rem;
+  border: 2px solid grey;
+  padding: 8px;
+  border-radius: 8px;
+  min-width: 90%;
+}
+
+.input-container {
+  min-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.select{
+  min-width: 20rem;
+  margin: 8px;
+}
+
+.page-button {
+  margin: 8px;
+  padding: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
